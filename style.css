@@ -5,10 +5,102 @@
 }
 html,
 body{
-    background: #454545;
+    background: #131417;
     color: #fff;
 }
-.container{
+.page1{
+    background-color: #131417;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 500;
+    color: #868CA0;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+nav span{
+    border-radius: 5px;
+    margin-left: 2vmax;
+    width: 85%;
+    height: 65%;
+    background-color: #252830;
+    display: flex;
+    align-items: center;
+}
+nav span>h1{
+    margin-left: 1vmax;
+
+}
+nav button{
+    width: 11vmax;
+    height: 65%;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+   background-image: linear-gradient(#80ED99,#57CC99,#38A3A5);
+   /* color: black; */
+   /* color: white; */
+   font-weight: 600;
+   letter-spacing: 0.4vmax;
+
+}
+nav button>a{
+    text-decoration: none;
+    color: #131417;
+}
+.contentDiv{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainHead{
+   font-size: 5vmax; 
+   text-align: center;
+   font-weight: 700;
+   font-family: 'Encode Sans SC', sans-serif;
+   word-spacing: -0.3vmax;
+
+
+}
+.mainHead-h2{
+    font-size: 3vmax;
+    font-weight: 900;
+    font-family: 'Great Vibes', cursive;
+    color: #80ED99;
+    
+    
+    
+}
+.mainHead-h2 span{
+    color: #38A3A5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================page 2 start=================================== */
+.page2{
     width: 100%;
     height: 100vh;
     padding: 20px;
@@ -43,6 +135,8 @@ label i{
 label{
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: #406049;
+    /* background-color: #000; */
     height: 30px;
 }
+
