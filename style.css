@@ -5,10 +5,13 @@
 }
 html,
 body{
-    background: #131417;
+    /* background: #131417; */
     color: #fff;
 }
 .page1{
+    /* background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80); */
+    background-size: cover;
+    background-position: center;
     background-color: #131417;
     width: 100%;
     height: 100vh;
@@ -20,7 +23,7 @@ body{
 }
 
 nav{
-    width: 100%;
+    width: 65%;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -30,7 +33,7 @@ nav{
 nav span{
     border-radius: 5px;
     margin-left: 2vmax;
-    width: 85%;
+    width: 70%;
     height: 65%;
     background-color: #252830;
     display: flex;
@@ -57,17 +60,31 @@ nav button>a{
     text-decoration: none;
     color: #131417;
 }
-.contentDiv{
+
+
+.contentBox{
+    display: flex;
     width: 100%;
+    height: 100%;
+}
+
+
+
+.contentDiv{
+    width: 50%;
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 3.8vmax;
+    
 }
 .mainHead{
-   font-size: 5vmax; 
+   font-size: 3vmax; 
+   width: 90%;
    text-align: center;
+   color: rgb(130, 126, 126);
    font-weight: 700;
    font-family: 'Encode Sans SC', sans-serif;
    word-spacing: -0.3vmax;
@@ -75,24 +92,59 @@ nav button>a{
 
 }
 .mainHead-h2{
-    font-size: 3vmax;
+    font-size: 2vmax;
     font-weight: 900;
     font-family: 'Great Vibes', cursive;
+    
+    
+    
+}
+.mainBtn{
+ width: 32vmax;
+    height: 1.7vmax;
+    border-radius: 5px;
+    color: #57CC99;
+    border: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+   /* background-image: linear-gradient(#80ED99,#57CC99,#38A3A5); */
+   /* color: black; */
+   /* color: white; */
+   font-weight: 900;
+   letter-spacing: 0.4vmax;
+
+}
+.mainBtn a{
+    text-decoration: none;
+}
+.span2{
     color: #80ED99;
-    
-    
-    
+
 }
 .mainHead-h2 span{
-    color: #38A3A5;
+    /* color: #38A3A5; */
 
 }
 
 
+.contentDiv2{
+    /* background-color: red; */
+    width: 50%;
+    height: 80%;
+    background-image: url(https://a.fsdn.com/con/app/proj/codepen.s/screenshots/Captura%20de%20Pantalla%202021-01-29%20a%20la%28s%29%2015.17.55.png/max/max/1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ================================== page 1b start============================================= */
 
 
+.page1b{
+    width: 100%;
+    height: 100vh;
+        background-color: #131417;
 
-
+}
 
 
 
@@ -105,6 +157,7 @@ nav button>a{
     height: 100vh;
     padding: 20px;
     display: flex;
+    background-color: #131417;
 }
 .left, .right{
     flex-basis: 50%;
@@ -124,7 +177,9 @@ iframe{
     width: 100%;
     height: 95%;
     color: black;
-    background: #fff;
+    /* background: #fff; */
+    background-image: linear-gradient(#98dfa8,#a3dbc2,#87b0b1);
+
     border: 0;
     outline: 0;
 }
@@ -135,8 +190,25 @@ label i{
 label{
     display: flex;
     align-items: center;
-    background-color: #406049;
+    color:#d0f1d8;
+    /* background-image: linear-gradient(#80ED99,#57CC99,#38A3A5); */
     /* background-color: #000; */
     height: 30px;
 }
+body::-webkit-scrollbar{
 
+}
+
+.green{
+    color: #80ED99;
+}
+.blue{
+    /* color: #38A3A5; */
+    color: white;
+
+}
+.mid{
+    /* color: #57CC99; */
+    color: white;
+
+}
