@@ -306,3 +306,103 @@ body::-webkit-scrollbar{
     font-family: 'Encode Sans SC', sans-serif;
    
 }
+
+/* ======================================= Footer ============================================= */
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+}
+footer div{
+    width: 50%;
+    height: 100%;
+}
+.footerDiv1{
+     font-family: 'Encode Sans SC', sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+    
+
+}
+.footerDiv1 div{
+    height: 70%;
+    width: 100%;
+    
+}
+.footerDiv1 div>form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.emailspan{
+    height: 7vmax;
+    width: 100%;
+   padding-left: 10vmax;
+}
+.emailspan>input{
+    width: 17vmax;
+    height: 25%;
+    border-radius: 50px;
+    background-color: #282937;
+    border: none;
+    padding:1.5vmax 5vmax;
+    margin-top: 1vmax;
+}
+.emailspan button{
+    width: 5vmax;
+    background-color: #38A3A5;
+    color: white;
+    border: none;
+    height: 47%;
+    border-radius: 50px;
+    margin-right: 10vmax;
+}
+.copyright{
+    color: #93939A;
+    margin-bottom: 2vmax;
+}
+.logoSpan{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    margin-left: 4vmax;
+    align-items: center;
+    justify-content: start;
+}
+.footerDiv2{
+}
+.footerDiv2 div{
+    width: 100%;
+    height: 50%;
+}
+.handlesDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 12vmax;
+    padding-top: 5vmax;
+}
+.handlesDiv i{
+font-size: 2.2vmax;
+}
+.footerOptions{
+    padding-top: 8vmax;
+}
+.footerOptions ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: end;
+padding:  0 5vmax;
+font-family: 'Encode Sans SC', sans-serif;
+}
+.footerOptions ul>li{
+    font-size: 1.5vmax;
+}
