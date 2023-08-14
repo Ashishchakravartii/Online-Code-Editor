@@ -7,6 +7,7 @@ html,
 body{
     /* background: #131417; */
     color: #fff;
+    overflow-x: hidden;
 }
 .page1{
     /* background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80); */
@@ -311,7 +312,7 @@ body::-webkit-scrollbar{
 
 footer{
     width: 100%;
-    height: 60vh;
+    height: 55vh;
     background-color: black;
     display: flex;
 }
@@ -405,4 +406,174 @@ font-family: 'Encode Sans SC', sans-serif;
 }
 .footerOptions ul>li{
     font-size: 1.5vmax;
+}
+
+/* ====================================== Responsive Properties =================================  */
+
+@media (max-width:600px){
+   nav{
+    width: 100%;
+    height: 10%;
+    padding:0 2vmax;
+}
+nav span{
+    width: 70%;
+    height: 55%;
+  
+}
+nav button{
+    width: 10vmax;
+    height: 55%;  
+}
+.page1{
+    height: 95vh;
+    border: none;
+}
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-top: 3vmax;
+    /* background-color: red; */
+}
+.contentDiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8vmax;
+    
+}
+.contentDiv2{
+    /* background-color: red; */
+    width: 100%;
+    height: 50%;
+}
+.mainBtn{
+    scale: 1.3;
+}
+.page1b{
+    width: 100%;
+    height: 60vh;
+
+}
+.cardBox{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4vmax;
+}
+.card{
+    width: 50%;
+    height: 35%;
+    scale: 0.9;
+      background-color: #131417;
+      /* border: 2px solid #138755; */
+      transition: all ease 0.5s;
+      margin-top: 1vmax;
+
+}
+.cardBox2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardBox2 h1{
+    font-weight: 500;
+    font-size: 2.1vmax;
+    letter-spacing: 0.2vmax;
+    text-align: center;
+}
+.cardBox2 h4{
+    font-weight: 500;
+    font-size: 1.5vmax;
+    color: #76DAFF;
+    margin-top: 0.8vmax;
+    word-spacing: 0.1vmax;
+    letter-spacing: 0.2vmax;
+font-family: 'Encode Sans SC', sans-serif;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body::-webkit-scrollbar{
+    width: 0.5vmax;
+}
+
+.page3{
+    width: 100%;
+    height: 50vh;
+}
+.page3 h1{
+    width: 90%;
+    font-size: 7vmax;
+    text-align: center;
+    margin-right: 0;
+    /* line-height: 8.5vmax; */
+}
+.page3 h2{
+    margin-top: 2vmax;
+    margin-right: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2vmax;
+    width: 90%;
+    font-family: 'Encode Sans SC', sans-serif;
+   
+}
+footer{
+    flex-direction: column;
+}
+footer div{
+    width: 100%;
+    height: 50%;
+}
+.footerDiv1{
+    /* background-color: red; */
+    gap: -10vmax;
+    
+
+}
+.copyright{
+    color: #93939A;
+    margin-bottom: 0;
+    font-size: 1.2vmax;
+}
+.emailspan{
+    height: 9vmax;
+
+}
+.emailspan>input{
+    width: 20vmax;
+    height: 35%;
+    padding:3vmax 7vmax;
+}
+.emailspan button{
+    width: 5vmax;
+    background-color: #38A3A5;
+    border: none;
+    height: 47%;
+}
+
+.footerDiv2 div{
+    width: 100%;
+    height: 35%;
+}
+.logoSpan{
+   scale: 0.7;
+    margin-left: -3vmax;
+  
+}
 }
